@@ -9,7 +9,7 @@
 	</default>
 	<modules>
         <Magestore_Facebook>
-            <version>0.1.3</version>
+            <version>0.1.2</version>
         </Magestore_Facebook>
     </modules>
     <frontend>
@@ -18,7 +18,7 @@
                 <use>standard</use>
                 <args>
                     <module>Magestore_Facebook</module>
-                    <frontName>facebook</frontName>
+                    <frontName>facebookstore</frontName>
                 </args>
             </facebook>
         </routers>
@@ -36,15 +36,15 @@
 				<use>admin</use>
 				<args>
 					<module>Magestore_Facebook</module>
-					<frontName>facebook</frontName>
+					<frontName>facebookstore</frontName>
 				</args>
 			</facebook>
         </routers>
     </admin>
     <adminhtml>		
 		<menu>
-			<magestore>
-				<title>Magestore Extension</title>
+			<facebook module="facebook">
+				<title>Facebook Application</title>
 				<sort_order>71</sort_order>               
 				<children>					
 					<settings module="facebook">
@@ -53,7 +53,7 @@
 						<action>adminhtml/system_config/edit/section/facebook</action>
 					</settings>
 				</children>
-			</magestore>
+			</facebook>
 		</menu>
 		<acl>
 			<resources>

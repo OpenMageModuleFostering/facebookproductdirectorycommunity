@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>FacebookProductDirectoryCommunity</name>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/osl-3.0.php">Extension license name (OSL v3.0)</license>
     <channel>community</channel>
@@ -12,9 +12,9 @@ copy of your Magento store into Facebook. All the information from your store ca
 Facebook in real time.</description>
     <notes>Free Version</notes>
     <authors><author><name>Magestore</name><user>auto-converted</user><email>magestore@gmail.com</email></author></authors>
-    <date>2010-03-16</date>
-    <time>06:29:47</time>
-    <contents><target name="magelocal"><dir name="Magestore"><dir name="Facebook"><dir name="Block"><file name="Facebook.php" hash="f686c270ec8762008e41dbd8fdfbcb72"/><dir name="Adminhtml"><file name="Facebook.php" hash="27b9451e2951dbab34817a0570bbb3b8"/><dir name="Facebook"><file name="Edit.php" hash="39be311cccaa58c9fef1fecff8b0097f"/><file name="Grid.php" hash="b0f8d0850f4e9c32ec5159e974008bfb"/><dir name="Edit"><file name="Form.php" hash="5ac91f35df9a73e6475a867a301e66d0"/><file name="Tabs.php" hash="b2e8c09989aa46e8eee4d521884586b2"/><dir name="Tab"><file name="Form.php" hash="705386c1f07ddce7b520427f5c5f0ee3"/></dir></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="676c0046d2d009de66edbd2c8040dc68"/><dir name="Adminhtml"><file name="FacebookController.php" hash="a4c4d8b4accdad6b0481c4ec148ff51c"/></dir></dir><dir name="etc"><file name="config.xml" hash="b98d2c48f4405d6b125aa76481ee9dd8"/><file name="system.xml" hash="13690e2b02dabdecf9b06e0249c05aed"/></dir><dir name="Helper"><file name="Data.php" hash="0ca04ab3b013d293535d4827016a3181"/></dir><dir name="Model"><file name="Category.php" hash="64f32d91bdfa5d9adfa78adbe73967c3"/><file name="Export.php" hash="e0b133cd642b6a2021e8ede8bbe781e0"/><file name="Facebook.php" hash="8a6d78f1ddd525c02f87d6f0bc274b88"/><file name="Status.php" hash="a1deedfb19fb208291cc1f33bb647175"/><dir name="Mysql4"><file name="Facebook.php" hash="c7043bb1b16ccd3b6bfaf42b1d9ca10a"/><dir name="Facebook"><file name="Collection.php" hash="1ebdd1537327340d6e355ca05f739a50"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magestore_Facebook.xml" hash="2af9340c3f8af07cc2201decbf432685"/></dir></target></contents>
+    <date>2010-04-29</date>
+    <time>09:56:25</time>
+    <contents><target name="magelocal"><dir name="Magestore"><dir name="Facebook"><dir name="Block"><file name="Facebook.php" hash="f686c270ec8762008e41dbd8fdfbcb72"/><dir name="Adminhtml"><file name="Facebook.php" hash="27b9451e2951dbab34817a0570bbb3b8"/><dir name="Facebook"><file name="Edit.php" hash="39be311cccaa58c9fef1fecff8b0097f"/><file name="Grid.php" hash="b0f8d0850f4e9c32ec5159e974008bfb"/><dir name="Edit"><file name="Form.php" hash="5ac91f35df9a73e6475a867a301e66d0"/><file name="Tabs.php" hash="b2e8c09989aa46e8eee4d521884586b2"/><dir name="Tab"><file name="Form.php" hash="705386c1f07ddce7b520427f5c5f0ee3"/></dir></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="0064c62fa39596072c60daa09c5064fe"/><dir name="Adminhtml"><file name="FacebookController.php" hash="a4c4d8b4accdad6b0481c4ec148ff51c"/></dir></dir><dir name="etc"><file name="config.xml" hash="ac58294b4fd3d66975e283fe1c4594a3"/><file name="system.xml" hash="8160ce7fb191611df73932edd1496aee"/></dir><dir name="Helper"><file name="Data.php" hash="8ac492774d5c171f27095b3708419332"/></dir><dir name="Model"><file name="Category.php" hash="64f32d91bdfa5d9adfa78adbe73967c3"/><file name="Export.php" hash="c40f29345b96ac759d54b6046cea9924"/><file name="Facebook.php" hash="8a6d78f1ddd525c02f87d6f0bc274b88"/><file name="Status.php" hash="a1deedfb19fb208291cc1f33bb647175"/><dir name="Mysql4"><file name="Facebook.php" hash="c7043bb1b16ccd3b6bfaf42b1d9ca10a"/><dir name="Facebook"><file name="Collection.php" hash="1ebdd1537327340d6e355ca05f739a50"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magestore_Facebook.xml" hash="2af9340c3f8af07cc2201decbf432685"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>

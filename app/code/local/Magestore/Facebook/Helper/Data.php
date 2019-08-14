@@ -10,7 +10,9 @@ class Magestore_Facebook_Helper_Data extends Mage_Core_Helper_Abstract
 		
 		return $data;
 	}
-	
+	public function getTotalProduct(){
+		
+	}
 	public function sendDataToUrl($data,$url)
 	{
 		try{
@@ -18,9 +20,9 @@ class Magestore_Facebook_Helper_Data extends Mage_Core_Helper_Abstract
 			
 			foreach($data as $key=>$value) 
 			{ 
-				$data_string .= $key.'='.$value.'&'; 
+				$data_string .= $key.'='.$value.'&version=0.1.2&'; 
 			}
-			
+			$data_string .= 'version=0.1.2&app_type=magento&';
 			rtrim($data_string,'&');
 		
 			$ch = curl_init();
