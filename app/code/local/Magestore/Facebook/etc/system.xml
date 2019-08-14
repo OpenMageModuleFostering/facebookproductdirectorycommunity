@@ -32,16 +32,16 @@
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
-							<comment>The maximum number of product show on search page</comment>
+							<comment><![CDATA[The maximum number of products show on search page]]></comment>
                         </product_limit>
 						<app_name translate="label">
-							<label>Application Name</label>
+							<label>Application Key</label>
 							<frontend_type>text</frontend_type>
 							<sort_order>1</sort_order>
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
-							<comment>The name of your own Facebook application</comment>
+							<comment><![CDATA[Application key is a string and  doesn't contain space characters<br/>Example : <i>my_storename</i><br/><font color="red">This is a required field</font>]]></comment>
                         </app_name>
 						<store_name translate="label">
 							<label>Store Name</label>
@@ -50,6 +50,7 @@
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
+							<comment><![CDATA[The name of your store. <br/>Example :<i>My Shopping</i><br/><font color="red">This is a required field</font>]]></comment>
                         </store_name>                       	
 						<contact_name translate="label">
 							<label>Contact Name</label>
@@ -66,6 +67,7 @@
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
+							<comment><![CDATA[<font color="red">This is a required field</font>]]></comment>
                         </contact_email>
 						<contact_phone translate="label">
 							<label>Contact Phone</label>
@@ -90,6 +92,7 @@
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
+							<comment><![CDATA[Example : <i>http://www.yourdomain.com/skin/frontend/default/default/images/logo.gif</i><br/><font color="red">This is a required field</font>]]></comment>
                         </logo_link>						
 						<description translate="label">
 							<label>Description</label>
@@ -98,6 +101,7 @@
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
+							<comment><![CDATA[Please note, We require a short description about your store<br/><font color="red">This is a required field</font><br/><br/> ]]></comment>
                         </description>						
 																			
 					</fields>
