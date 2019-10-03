@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/FacebookProductDirectoryCommunity",
+    "name": "OpenMageModuleFostering\/FacebookProductDirectoryCommunity",
     "type": "magento-module",
     "license": "Extension-license-name-(OSL-v3.0)",
     "homepage": "",
     "description": "Create your own store and application on Facebook.",
     "authors": [
-    {
-        "name": "Magestore",
-        "email": "magestore@gmail.com"
-    }
-],
+        {
+            "name": "Magestore",
+            "email": "magestore@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
